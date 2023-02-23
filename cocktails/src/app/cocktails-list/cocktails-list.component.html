@@ -1,10 +1,10 @@
 <section>
     <ng-container *ngFor="let cocktails of cocktails">
         <div class="card" style="width: 18rem;">
-            <img [src]="cocktails.image" class="card-img-top" alt="photo du cocktail {{cocktails.name}}" >
-            <div class="card-body">
-            <h5 class="card-title">{{cocktails.name}}</h5>
-            <p class="card-text">Prix : {{cocktails.price}} €</p>
+            <img [src]="cocktails.image" alt="cocktail" >
+            <div>
+            <h5>{{cocktails.name}}</h5>
+            <p >Prix : {{cocktails.price}} €</p>
             </div>
         </div>
     </ng-container>
