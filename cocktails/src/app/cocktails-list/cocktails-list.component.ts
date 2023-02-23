@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Cocktails } from '../cocktails';
 import { CocktailServiceService} from '../cocktail.service';
 
 
@@ -14,7 +13,7 @@ export class CocktailsListComponent implements OnInit {
     constructor(private cocktailService:CocktailServiceService){}
 
     ngOnInit(): void {
-        console.log("this.cocktails");
+        
         this.cocktailService.getCocktails().subscribe(cocktailsFromJsonFile => {
           this.cocktails = cocktailsFromJsonFile;
         });

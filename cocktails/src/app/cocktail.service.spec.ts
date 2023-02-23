@@ -1,16 +1,23 @@
-/* tslint:disable:no-unused-variable */
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TestBed, async, inject } from '@angular/core/testing';
-import { CocktailService } from './cocktail.service';
+import { CocktailsListComponent } from './cocktails-list/cocktails-list.component';
 
-describe('Service: Cocktail', () => {
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      providers: [CocktailService]
-    });
+describe('CocktailListComponent', () => {
+  let component: CocktailsListComponent;
+  let fixture: ComponentFixture<CocktailsListComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ CocktailsListComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(CocktailsListComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
   });
 
-  it('should ...', inject([CocktailService], (service: CocktailService) => {
-    expect(service).toBeTruthy();
-  }));
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
 });
