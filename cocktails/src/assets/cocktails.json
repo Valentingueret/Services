@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Fresh Berry Delicious",
+        "price": 11,
+        "image": "https://www.liquor.com/thmb/f9kQdriaiMZWRylBrRvS4i9IpPs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fresh-berry-delicious-720x720-primary-1a5eae4fde84429a98381986abfe2572.jpg"
+    },
+    {
+        "name": "Mojito",
+        "price": 12,
+        "image": "https://www.papillesetpupilles.fr/wp-content/uploads/2006/07/Mojito-%C2%A9felixmetalsucko-CC-BY-NC-ND-2.0.jpg"
+    },
+    {
+        "name": "Botanist Thym Bees Knees",
+        "price": 8,
+        "image": "https://uploads-ssl.webflow.com/603e7f3219462c686bd2bb29/60edc0a9a55d141d6dd5aa03_Web-The%20Botanist-Photo-The%20Botanist%20Bees%20Knees%20Cocktail.jpg"
+    }
+]
